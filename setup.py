@@ -3,9 +3,9 @@
 from distutils.core import setup
 
 setup(
- name='{General French Quiz Game}',
+ name='General Knowledge Quiz Game',
  version='1.0',
- author='{MINOST Alexis}',
+ author='Tyui70',
  license='MIT',
  long_description=open('README.md').read(),
 )
