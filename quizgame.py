@@ -4,7 +4,7 @@ print("****** Answers correctly to 3 questions to win the game ! ******\n")
 
 choice1 = random.randint(1, 3)
 choice2 = random.randint(1, 3)
-choice3 = random.randint(1, 3)
+choice3 = random.randint(1, 4)
 
 answer = ""
 
@@ -141,3 +141,16 @@ if(answer != "0"):
             else:
                 print("This is not an answer or the answer is incorrect, you lose !")
                 answer = "0"
+        case 4:
+            print("What is the longest river in europe ?")
+            print("1. Volga")
+            print("2. Danube")
+            print("3. Oural")
+            print("4. Dniepr")
+            
+            answer = input()
+            if(answer == "1"):
+                print("Good answer, you won !\n")
+            else:
+                print("This is not an answer or the answer is incorrect, you lose !")
+                answer = "0"
