@@ -55,7 +55,7 @@ match choice1:
 if(answer != "0"):
     
     print("# Question 2 #\n")
-    match choice1:
+    match choice2:
         case 1:
             print("When did Neil Armstrong arrive on the moon ?")
             print("1. 1962")
@@ -101,7 +101,7 @@ if(answer != "0"):
 if(answer != "0"):
     
     print("# Question 3 #\n")
-    match choice1:
+    match choice3:
         case 1:
             print("Who was the highest paid athlete of the world in 2021 ?")
             print("1. Lionel Messi")
@@ -153,4 +153,3 @@ if(answer != "0"):
                 print("Good answer, you won !\n")
             else:
                 print("This is not an answer or the answer is incorrect, you lose !")
-                answer = "0"
